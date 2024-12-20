@@ -1,0 +1,120 @@
+>> python3 vol.py -f vol -f /home/kali/Desktop/image.raw windows.netscan
+
+
+Volatility 3 Framework 2.13.0
+Progress:  100.00               PDB scanning finished                        
+Offset  Proto   LocalAddr       LocalPort       ForeignAddr     ForeignPort     State   PID     Owner   Created
+
+0xb687ed6a71b0  TCPv4   0.0.0.0 445     0.0.0.0 0       LISTENING       4       System  2024-12-19 22:57:55.000000 UTC
+0xb687ed6a71b0  TCPv6   ::      445     ::      0       LISTENING       4       System  2024-12-19 22:57:55.000000 UTC
+0xb687ed7a8010  TCPv4   192.168.203.128 49737   204.79.197.237  443     CLOSED  3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f0654050  TCPv4   0.0.0.0 135     0.0.0.0 0       LISTENING       108     svchost.exe     2024-12-19 22:57:52.000000 UTC
+0xb687f06541b0  TCPv4   0.0.0.0 49664   0.0.0.0 0       LISTENING       816     lsass.exe       2024-12-19 22:57:52.000000 UTC
+0xb687f06541b0  TCPv6   ::      49664   ::      0       LISTENING       816     lsass.exe       2024-12-19 22:57:52.000000 UTC
+0xb687f0654310  TCPv4   0.0.0.0 49665   0.0.0.0 0       LISTENING       696     wininit.exe     2024-12-19 22:57:52.000000 UTC
+0xb687f0654310  TCPv6   ::      49665   ::      0       LISTENING       696     wininit.exe     2024-12-19 22:57:52.000000 UTC
+0xb687f06545d0  TCPv4   0.0.0.0 49665   0.0.0.0 0       LISTENING       696     wininit.exe     2024-12-19 22:57:52.000000 UTC
+0xb687f0654730  TCPv4   0.0.0.0 49666   0.0.0.0 0       LISTENING       1112    svchost.exe     2024-12-19 22:57:53.000000 UTC
+0xb687f0654730  TCPv6   ::      49666   ::      0       LISTENING       1112    svchost.exe     2024-12-19 22:57:53.000000 UTC
+0xb687f0654890  TCPv4   192.168.203.128 139     0.0.0.0 0       LISTENING       4       System  2024-12-19 22:57:55.000000 UTC
+0xb687f06550d0  TCPv4   0.0.0.0 49667   0.0.0.0 0       LISTENING       1104    svchost.exe     2024-12-19 22:57:53.000000 UTC
+0xb687f0655390  TCPv4   0.0.0.0 49666   0.0.0.0 0       LISTENING       1112    svchost.exe     2024-12-19 22:57:53.000000 UTC
+0xb687f06554f0  TCPv4   0.0.0.0 49667   0.0.0.0 0       LISTENING       1104    svchost.exe     2024-12-19 22:57:53.000000 UTC
+0xb687f06554f0  TCPv6   ::      49667   ::      0       LISTENING       1104    svchost.exe     2024-12-19 22:57:53.000000 UTC
+0xb687f0655650  TCPv4   0.0.0.0 49664   0.0.0.0 0       LISTENING       816     lsass.exe       2024-12-19 22:57:52.000000 UTC
+0xb687f06557b0  TCPv4   0.0.0.0 49669   0.0.0.0 0       LISTENING       808     services.exe    2024-12-19 22:57:56.000000 UTC
+0xb687f06557b0  TCPv6   ::      49669   ::      0       LISTENING       808     services.exe    2024-12-19 22:57:56.000000 UTC
+0xb687f0655910  TCPv4   0.0.0.0 49668   0.0.0.0 0       LISTENING       2032    spoolsv.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f0655910  TCPv6   ::      49668   ::      0       LISTENING       2032    spoolsv.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f0655bd0  TCPv4   0.0.0.0 135     0.0.0.0 0       LISTENING       108     svchost.exe     2024-12-19 22:57:52.000000 UTC
+0xb687f0655bd0  TCPv6   ::      135     ::      0       LISTENING       108     svchost.exe     2024-12-19 22:57:52.000000 UTC
+0xb687f0655d30  TCPv4   0.0.0.0 49669   0.0.0.0 0       LISTENING       808     services.exe    2024-12-19 22:57:56.000000 UTC
+0xb687f0655e90  TCPv4   0.0.0.0 49668   0.0.0.0 0       LISTENING       2032    spoolsv.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f06d1ea0  TCPv4   0.0.0.0 7680    0.0.0.0 0       LISTENING       5280    svchost.exe     2024-12-19 23:00:00.000000 UTC
+0xb687f06d1ea0  TCPv6   ::      7680    ::      0       LISTENING       5280    svchost.exe     2024-12-19 23:00:00.000000 UTC
+0xb687f1c17230  UDPv4   0.0.0.0 51221   *       0               1380    svchost.exe     2024-12-19 23:01:30.000000 UTC
+0xb687f1c17230  UDPv6   ::      51221   *       0               1380    svchost.exe     2024-12-19 23:01:30.000000 UTC
+0xb687f1c96890  UDPv4   0.0.0.0 0       *       0               1104    svchost.exe     2024-12-19 22:57:56.000000 UTC
+0xb687f1c96890  UDPv6   ::      0       *       0               1104    svchost.exe     2024-12-19 22:57:56.000000 UTC
+0xb687f1d939f0  UDPv4   192.168.203.128 138     *       0               4       System  2024-12-19 22:57:55.000000 UTC
+0xb687f1d95ac0  UDPv4   192.168.203.128 137     *       0               4       System  2024-12-19 22:57:55.000000 UTC
+0xb687f1d968d0  UDPv4   0.0.0.0 5353    *       0               1380    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d968d0  UDPv6   ::      5353    *       0               1380    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d97b90  UDPv4   0.0.0.0 5353    *       0               1380    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d97d20  UDPv4   0.0.0.0 5355    *       0               1380    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d97d20  UDPv6   ::      5355    *       0               1380    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d981d0  UDPv4   0.0.0.0 5355    *       0               1380    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d99170  UDPv4   0.0.0.0 0       *       0               1380    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d99170  UDPv6   ::      0       *       0               1380    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d99940  UDPv4   0.0.0.0 4500    *       0               1104    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d99940  UDPv6   ::      4500    *       0               1104    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d99c60  UDPv4   0.0.0.0 0       *       0               1104    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d9ad90  UDPv4   0.0.0.0 4500    *       0               1104    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d9b240  UDPv4   0.0.0.0 500     *       0               1104    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d9b6f0  UDPv4   0.0.0.0 500     *       0               1104    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1d9b6f0  UDPv6   ::      500     *       0               1104    svchost.exe     2024-12-19 22:57:55.000000 UTC
+0xb687f1f401b0  UDPv4   0.0.0.0 0       *       0               2120    svchost.exe     2024-12-19 22:57:56.000000 UTC
+0xb687f1f40660  UDPv4   0.0.0.0 0       *       0               2120    svchost.exe     2024-12-19 22:57:56.000000 UTC
+0xb687f1f40660  UDPv6   ::      0       *       0               2120    svchost.exe     2024-12-19 22:57:56.000000 UTC
+0xb687f1f4c690  UDPv4   127.0.0.1       58950   *       0               1104    svchost.exe     2024-12-19 22:57:56.000000 UTC
+0xb687f1ffce10  TCPv4   0.0.0.0 5357    0.0.0.0 0       LISTENING       4       System  2024-12-19 22:57:57.000000 UTC
+0xb687f1ffce10  TCPv6   ::      5357    ::      0       LISTENING       4       System  2024-12-19 22:57:57.000000 UTC
+0xb687f1ffd230  TCPv4   0.0.0.0 5040    0.0.0.0 0       LISTENING       1220    svchost.exe     2024-12-19 22:58:08.000000 UTC
+0xb687f1ffd390  TCPv4   0.0.0.0 49671   0.0.0.0 0       LISTENING       2120    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f1ffd390  TCPv6   ::      49671   ::      0       LISTENING       2120    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f1ffde90  TCPv4   0.0.0.0 49671   0.0.0.0 0       LISTENING       2120    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2036010  TCPv4   192.168.203.128 49741   108.159.120.106 443     CLOSE_WAIT      3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f21c2050  TCPv4   192.168.203.128 49740   95.101.35.217   443     CLOSE_WAIT      3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f21da010  TCPv4   192.168.203.128 49738   13.74.129.1     443     CLOSED  3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f2212a80  UDPv4   0.0.0.0 3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2213a20  UDPv4   0.0.0.0 3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2213a20  UDPv6   ::      3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2213d40  UDPv4   0.0.0.0 3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2213d40  UDPv6   ::      3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f22141f0  UDPv4   0.0.0.0 53750   *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2214380  UDPv4   0.0.0.0 3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2217bc0  UDPv4   0.0.0.0 53751   *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2217bc0  UDPv6   ::      53751   *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xb687f2284010  TCPv4   192.168.203.128 49685   20.199.120.151  443     ESTABLISHED     1104    svchost.exe     2024-12-19 22:58:08.000000 UTC
+0xb687f23c9270  TCPv4   192.168.203.128 49764   2.21.2.168      443     ESTABLISHED     4896    SearchApp.exe   2024-12-19 23:06:35.000000 UTC
+0xb687f24e38e0  UDPv6   fe80::71c8:eae9:87ea:2ac6       1900    *       0               2672    svchost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24e3a70  UDPv6   ::1     1900    *       0               2672    svchost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24e40b0  UDPv4   192.168.203.128 58230   *       0               2672    svchost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24e46f0  UDPv4   127.0.0.1       1900    *       0               2672    svchost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24e4880  UDPv4   192.168.203.128 1900    *       0               2672    svchost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24e5b40  UDPv6   ::1     58229   *       0               2672    svchost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24e5e60  UDPv4   127.0.0.1       58231   *       0               2672    svchost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24e6950  UDPv6   fe80::71c8:eae9:87ea:2ac6       58228   *       0               2672    svchost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24e9ce0  UDPv4   0.0.0.0 3702    *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24ea190  UDPv4   0.0.0.0 3702    *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24ea190  UDPv6   ::      3702    *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24ea640  UDPv4   0.0.0.0 3702    *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24eae10  UDPv4   0.0.0.0 58232   *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24eb130  UDPv4   0.0.0.0 58233   *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24eb130  UDPv6   ::      58233   *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24eb450  UDPv4   0.0.0.0 3702    *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f24eb450  UDPv6   ::      3702    *       0               3460    dasHost.exe     2024-12-19 22:58:00.000000 UTC
+0xb687f29ad1e0  UDPv4   0.0.0.0 5050    *       0               1220    svchost.exe     2024-12-19 22:58:07.000000 UTC
+0xb687f2b73b40  TCPv4   192.168.203.128 49739   95.101.35.219   443     CLOSE_WAIT      3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f2c0f860  TCPv4   192.168.203.128 49714   20.199.120.151  443     ESTABLISHED     1104    svchost.exe     2024-12-19 22:59:09.000000 UTC
+0xb687f2c10390  TCPv4   192.168.203.128 49736   13.107.42.16    443     CLOSED  3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f2c19010  TCPv4   192.168.203.128 49744   52.182.143.209  443     CLOSED  3944    msedgewebview2  2024-12-19 23:01:32.000000 UTC
+0xb687f2e3c9a0  TCPv4   192.168.203.128 49767   52.123.131.254  443     ESTABLISHED     4896    SearchApp.exe   2024-12-19 23:06:40.000000 UTC
+0xb687f2e57460  TCPv4   192.168.203.128 49771   51.11.192.49    443     CLOSED  2220    svchost.exe     2024-12-19 23:08:04.000000 UTC
+0xb687f2e79780  TCPv4   192.168.203.128 49766   131.253.33.254  443     ESTABLISHED     4896    SearchApp.exe   2024-12-19 23:06:40.000000 UTC
+0xb687f2eab6c0  TCPv4   192.168.203.128 49745   204.79.197.203  443     CLOSED  6348    SearchApp.exe   2024-12-19 23:01:32.000000 UTC
+0xb687f2ec9a20  TCPv4   192.168.203.128 49735   204.79.197.203  443     CLOSED  3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f2fe09a0  TCPv4   192.168.203.128 49743   204.79.197.203  443     CLOSED  3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f33179a0  TCPv4   192.168.203.128 49765   20.189.173.8    443     ESTABLISHED     4896    SearchApp.exe   2024-12-19 23:06:36.000000 UTC
+0xb687f3363a20  TCPv4   192.168.203.128 49742   92.122.225.234  443     CLOSE_WAIT      3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f347ba20  TCPv4   192.168.203.128 49769   204.79.197.222  443     ESTABLISHED     4896    SearchApp.exe   2024-12-19 23:06:42.000000 UTC
+0xb687f37b09f0  UDPv4   0.0.0.0 53483   *       0               3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f37b27a0  UDPv4   0.0.0.0 58099   *       0               3944    msedgewebview2  2024-12-19 23:01:31.000000 UTC
+0xb687f44f9a20  TCPv4   192.168.203.128 49748   2.18.1.241      443     CLOSE_WAIT      3944    msedgewebview2  2024-12-19 23:01:35.000000 UTC
+0xb687f4644340  UDPv4   0.0.0.0 53722   *       0               3944    msedgewebview2  2024-12-19 23:01:36.000000 UTC
+0xb687f4679010  TCPv4   192.168.203.128 49773   23.39.69.211    80      ESTABLISHED     1488    InstallFlashPl  2024-12-19 23:08:19.000000 UTC
+0xb687f468e8a0  TCPv4   192.168.203.128 49768   20.74.236.255   443     ESTABLISHED     4896    SearchApp.exe   2024-12-19 23:06:41.000000 UTC
+0xc7007845ca20  UDPv4   0.0.0.0 3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xc7007845ca20  UDPv6   ::      3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xc7007845cd40  UDPv4   0.0.0.0 3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
+0xc7007845cd40  UDPv6   ::      3702    *       0               2672    svchost.exe     2024-12-19 22:57:57.000000 UTC
