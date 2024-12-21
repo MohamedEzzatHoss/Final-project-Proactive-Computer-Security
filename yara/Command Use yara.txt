@@ -1,0 +1,8 @@
+
+1- nano zeus.yar
+
+** Here we will add the rules ** 
+
+** in file rule Zeus_Combined (yara rules).txt ** 
+
+2- yara zeus.yar image.raw
