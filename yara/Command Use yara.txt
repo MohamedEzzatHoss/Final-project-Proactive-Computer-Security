@@ -6,4 +6,4 @@
 
 ** in file rule Zeus_Combined (yara rules).txt ** 
 
-2- yara zeus.yar image.raw
+3- yara zeus.yar image.raw
