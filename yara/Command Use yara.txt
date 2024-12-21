@@ -1,5 +1,6 @@
+1- sudo apt-get update
 
-1- nano zeus.yar
+2- sudo apt-get install yara
 
 ** Here we will add the rules ** 
 
